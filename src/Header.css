@@ -1,0 +1,15 @@
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 10px; /* Padding around the nav items */
+}
+
+nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Padding for each link */
+    transition: background-color 0.3s; /* Smooth transition for background color on hover */
+}
+
+nav a:hover {
+    background-color: #555; /* Change background on hover */
+}

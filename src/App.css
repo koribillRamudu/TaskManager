@@ -1,0 +1,128 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  line-height: 1.6; /* Improved readability */
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px; /* Increased font size for prominence */
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 30px; /* Increased margin for spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px; /* Increased padding */
+  font-size: 16px; /* Increased font size for readability */
+  border-radius: 0 0 8px 8px;
+  margin-top: 30px; /* Increased margin for spacing */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+/* Home Component Styles */
+.home-container {
+  padding: 25px; /* Increased padding */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 30px; /* Increased margin for spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.home-container h1 {
+  color: #333;
+  margin-bottom: 10px; /* Added margin for spacing */
+}
+
+.home-container p {
+  color: #666;
+  font-size: 18px;
+}
+
+/* Table Styles (Tasklist) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px; /* Increased margin for spacing */
+}
+
+table th, table td {
+  padding: 15px; /* Increased padding */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold; /* Added boldness for emphasis */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e0e0e0; /* Slightly darker hover effect */
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px; /* Increased padding */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px; /* Increased margin for spacing */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  header {
+    font-size: 24px; /* Decrease font size on small screens */
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 14px; /* Decrease font size on small screens */
+    padding: 10px;
+  }
+
+  table th, table td {
+    padding: 10px; /* Decreased padding */
+  }
+
+  button {
+    padding: 8px 12px; /* Adjusted button size */
+  }
+}
